@@ -14,8 +14,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <125>;
-            tapping-term-ms = <150>;
+            require-prior-idle-ms = <100>;
+            tapping-term-ms = <125>;
             quick-tap-ms = <125>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <Y U I O P H J K L N M>; // List of keys on the right side of the keyboard
@@ -25,8 +25,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
-            require-prior-idle-ms = <125>;
-            tapping-term-ms = <150>;
+            require-prior-idle-ms = <100>;
+            tapping-term-ms = <125>;
             quick-tap-ms = <125>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <Q W E R T A S D F G Z X C V B>; // List of keys on the left side of the keyboard
